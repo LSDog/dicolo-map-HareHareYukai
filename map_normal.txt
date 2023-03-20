@@ -1,0 +1,22 @@
+title:ハレ晴レユカイ
+singer:涼宮ハルヒ(平野綾)・長門有希(茅原実里)・朝比奈みくる(後藤邑子)
+mapper:LSDog
+level:normal
+audio:ハレ晴レユカイed.mp3
+video:ハレ晴レユカイed.ogv
+bpm:172
+bg:bg.jpeg
+
+// 单行信息
+// 1.时间戳(秒) 0.6666667 
+// 2.音符crash=c line-crash=l slide=s
+// 3.左l右r
+// 4.范围(±360度) -45 或 90~0 [未实装] 特殊范围(度:距心比) 60:0.5
+// 5.[slide][可选] 持续时间
+// 存在时间(可选) 3
+
+events:
+0.6 _start
+1.93 c/l/-135 c/r/-90
+3.37 c/r/135
+3.88 c/l/135
